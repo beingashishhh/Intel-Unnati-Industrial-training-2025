@@ -1,3 +1,4 @@
+The dataset is too large to upload , so the link to the google drive is given : https://drive.google.com/drive/u/0/folders/1wmC1TQLPgeZfhFmlWTiKdehJTXovAGYz
 # 🔍 Real-Time Image Sharpening Using Knowledge Distillation
 
 This project develops a lightweight, real-time deep learning model that sharpens blurry video frames, improving video call quality under poor network conditions. It leverages **knowledge distillation** from a powerful **UNetTeacher** model to train a compact **UNetStudent** model suitable for low-resource devices.
