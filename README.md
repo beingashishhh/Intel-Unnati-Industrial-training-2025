@@ -22,11 +22,13 @@ pip install torch torchvision opencv-python numpy Pillow tqdm scikit-image matpl
 ├── test.py             # Evaluates SSIM/PSNR on test data
 ├── video_test.py      # Real-time sharpening via webcam
 ├── models/
-│   ├── unet_teacher.py # UNetTeacher architecture
-│   └── unet_student.py # UNetStudent architecture
+│   ├── teacher.py # UNetTeacher architecture
+│   └── student.py
+ # UNetStudent architecture
 ├── loss_functions.py   # Custom multi-loss setup
 ├── dataset.py          # Loads paired blurry/sharp images
-├── checkpoints/        # Stores model weights
+├── checkpoints/
+       # Stores model weights
 ```
 
 ## 🧠 Usage
