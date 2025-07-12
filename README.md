@@ -18,17 +18,24 @@ pip install torch torchvision opencv-python numpy Pillow tqdm scikit-image matpl
 ## 📁 Structure
 ```
 .
-├── train.py            # Trains UNetStudent using teacher output
-├── test.py             # Evaluates SSIM/PSNR on test data
-├── video_test.py      # Real-time sharpening via webcam
-├── models/
-│   ├── teacher.py # UNetTeacher architecture
-│   └── student.py
- # UNetStudent architecture
-├── loss_functions.py   # Custom multi-loss setup
-├── dataset.py          # Loads paired blurry/sharp images
-├── checkpoints/
-       # Stores model weights
+├── data/                          # Data directory (if used)
+├── models/                        # Contains all model and utility scripts
+│   ├── dataset.py                 # Loads paired blurry and sharp images
+│   ├── postevaltrain_student.py  # Post-evaluation/training routines for the student
+│   ├── student.py                # UNetStudent model definition
+│   ├── teacher.py                # UNetTeacher model definition
+│   ├── utils.py                  # Utility functions (metrics, loaders, etc.)
+│   ├── video_test.py             # Tests model on webcam/video input
+│   └── visualize_student.py      # Visualizes student output for analysis
+├── evaluate.py                   # Script to evaluate model performance on test set
+├── loss.py                       # Custom loss function definitions (L1, SSIM, etc.)
+├── output_student_3...           # Output/results file (likely student logs or predictions)
+├── student.pth                   # Trained student model weights
+├── teacher.pth                   # Trained teacher model weights
+├── train_student.py              # Training script for UNetStudent
+├── train_teacher.py              # Training script for UNetTeacher
+├── venv/                         # Python virtual environment directory
+
 ```
 
 ## 🧠 Usage
