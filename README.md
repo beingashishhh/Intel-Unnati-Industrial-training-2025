@@ -20,7 +20,7 @@ pip install torch torchvision opencv-python numpy Pillow tqdm scikit-image matpl
 .
 ├── train.py            # Trains UNetStudent using teacher output
 ├── test.py             # Evaluates SSIM/PSNR on test data
-├── webcam_demo.py      # Real-time sharpening via webcam
+├── video_test.py      # Real-time sharpening via webcam
 ├── models/
 │   ├── unet_teacher.py # UNetTeacher architecture
 │   └── unet_student.py # UNetStudent architecture
