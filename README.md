@@ -78,18 +78,17 @@ python video_test.py --model_path checkpoints/unet_student_best.pth
   ```
 <img width="1496" height="576" alt="image" src="https://github.com/user-attachments/assets/a34dff96-118f-45e8-b592-4e4008061929" />
 
-  ```
+  
 
 **Video Output:**
 
 * An enhanced video is generated from the input provided and saved to the output directory.
 * Example:
 
-  ``` 
+ 
   Output Video    →  output_student_30fps.av  
   ```
 
----
 
 
 
