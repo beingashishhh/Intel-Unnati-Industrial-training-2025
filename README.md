@@ -87,7 +87,7 @@ python video_test.py --model_path checkpoints/unet_student_best.pth
 
  
   Output Video    →  output_student_30fps.av  
-  ```
+  
 
 
 
